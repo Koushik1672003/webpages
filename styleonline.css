@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    height: 30%;
+    width: 100%;
+
+    text-align: center;
+    background-color: aqua;
+}
+
+.sidebar {
+    height: 100%;
+    width: 30%;
+    left: -30%;
+    position: fixed;
+    transition: 0.1s ease;
+    background-color: black;
+
+}
+
+.togglebtn {
+    left: 105%;
+    top: 30px;
+    transition: 0.5s ease;
+    position: absolute;
+    display: block;
+}
+
+.togglebtn span {
+    display: block;
+
+    background-color: red;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+
+.sidebar li {
+    color: white;
+    font-size: 20px;
+    padding: 5%;
+}
+
+.sidebar:hover {
+    left: 0%;
+}
