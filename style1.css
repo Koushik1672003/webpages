@@ -1,7 +1,7 @@
 .container2{
     width: 1350px;
     height: 500px;
-    
+   
     transition: width 2s, height 4s;
    border: 3px solid black;
     display: flex;
@@ -12,23 +12,23 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
   }
-  
-  
+ 
+ 
 .container{
     width: 1200px;
     height: 50px;
-    
+   
   }
-  
+ 
   .container2 img{
     border: 2px solid black;
     padding: 5px;
     animation: zoom 5s linear 1s infinite;
    
-  
+ 
   }
   .container2 img:hover{
-    width: 250px; 
+    width: 250px;
     height: 450px;
     transform: scale();
   }

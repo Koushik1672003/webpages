@@ -1,0 +1,10 @@
+.container4{
+    padding:70px;
+    background-color: rgb(77, 250, 77);
+    font-size:20px;
+}
+#firstname,#lastname,#email{
+    width: 90%;
+    padding: 15px;
+    display:inline-block;
+}
