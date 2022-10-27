@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-main{
+
+    
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgb(104, 100, 100) ;
+    background-color: #1b1b1b;
+   display: flex;
+   
+   justify-content:flex-start ;
+   font-family: Arial;
+   text-transform: uppercase;
+   flex-direction: row;
+   
+    
+}
+
+.nav-main h1{
+    float: left;
+    padding: 25px;
+    color: #fff;
+    display:flex;
+    
+}
+.nav-toggle-btn{
+    position: fixed;
+    width: 60px;
+    height: 80px;
+    top: 0;
+    display: flex;
+    
+    justify-content:space-around;
+    left: 16%;
+    border-spacing: 10px;
+    background-image: url("hamburgericon.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    background-color:#f98f39;
+    cursor: pointer;
+}
+.nav-sidebar{
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+    left: 0;
+    bottom: 0;
+    width:0px;
+    top: 80px;
+    
+    height: calc(100vh-60px);
+    padding: 0 0px;
+    z-index: 1000;
+    background-color: #1b1b1b;
+}
+.nav-sidebar ul{
+   padding-top: 15px;
+   overflow: hidden;
+   visibility: hidden;
+}
+.nav-sidebar ul li{
+    line-height: 60px;
+    list-style: none;
+    
+}
+.nav-sidebar ul li span,a{
+    display: block;
+    white-space: nowrap;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    
+    color: #fff;
+    font-family: Ariel;
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 0;
+    padding: 0 10px;
+}
+.nav-sidebar a:hover{
+    background-color: #222;
+    color:#f98f39;
+}
+.in{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 22px;
+    
+}
+#bar{
+    width: 300px;
+    padding: 8px;
+}
+.search{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    display: flex;
+    
+    justify-content:space-around;
+    left: 49%;
+    border-spacing: 0px;
+    flex-wrap: wrap;
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    
+    cursor: pointer;
+}
+.cart{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    display: flex;
+    
+    
+    left: 80%;
+    border-spacing: 0px;
+    flex-wrap: wrap;
+    background-image: url("ca.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    
+    cursor: pointer;
+}
+
+.dussera-banner{
+    width:50%;
+    position: fixed;
+    padding-top: 80px;
+    height:50%;
+    background-image: url("dusserasale4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.diwali-banner{
+    width:50%;
+    position: fixed;
+    float: right;
+    padding-top: 80px;
+    height:50%;
+    background-image: url("diwali.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

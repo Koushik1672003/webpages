@@ -9,7 +9,7 @@ let navtoggle = function(){
     {
         getsbul.style.visibility = "visible";
         getmenu.style.opacity = "0.5";
-        getsb.style.width= "200px";
+        getsb.style.width= "210px";
          
         let al=getlinks.length;
         for(let i=0;i<al;i++){
@@ -22,7 +22,7 @@ let navtoggle = function(){
     {
         
         getmenu.style.opacity = "0";
-        getsb.style.width= "50px";
+        getsb.style.width= "0px";
          
         let al=getlinks.length;
         for(let i=0;i<al;i++){
